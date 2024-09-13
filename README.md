@@ -27,8 +27,19 @@ When a hand's score is greater than 21, the hand is a **bust** and the player au
 
 Identify some of the following tests cases and record your responses in Learn.
 
-- At least two nominal cases
+- At least two nominal cases.
+    - Cards sum is 21.
+    - Cards is more than 21.
+    - Cards is less than 21.
+
 - At least three edge cases
+    - No cards in hand.
+    - 1 Card in hand.
+    - More than 5 cards.
+    - Unknown card in hand.
+    - Ace can trigger a loss.
+    - Ace cam trigger a win.
+
 
 Note: You should not implement the tests or the functionality in Part 1.
 
